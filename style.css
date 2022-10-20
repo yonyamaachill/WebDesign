@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-style: normal;
+    margin: 0;
+}
+.nav    {
+    max-width: 1280px;
+    height: 52px;
+    margin: 16px auto;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    align-items: center;
+}
+.nav img {
+    width: 122px;
+    height: 28px;
+    margin: 12px 0;
+}
+.nav ul li {
+    list-style: none;
+}
+.nav p {
+    padding: 18px 30px 17px 29px;
+    width: 173px;
+    height: 52px;
+    color: #F58A07;
+    background-color: #F58A071A;
+    border-radius: 31px
+}
+.sec1   {
+    height: 703px;
+    background-color: #DCEAF5;
+    justify-content: center;
+}
+.sec1-left .content1    {
+    max-width: 576px;
+    height: 439px;
+    margin: 117px 0 0 ;
+
+}
+.sec1-main  {
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    height: 100%;
+}
+
+.sec1-left  {
+    flex: 1;
+    
+}
+.sec1-right {
+    flex: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    /* margin-right: 232px; */
+}
+.sec1-right img {
+    /* width: 100%; */
+    max-width: 747px;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+}
+.content1-1 h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #1D3444;
+
+}
+.content1-2 {
+    display: flex;
+}
+.content1-1 p {
+    padding-top: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color:  #5B5B5B;
+}
+.content1-2 p:first-child {
+    max-width: 199px;
+    height: 54px;
+    background-color: #F58A07;
+    padding: 18px 32px 19px 32px;
+    border-radius: 27px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 32px 0 56px 0;
+}
+.content1-2 p:last-child {
+    color: #1D3444;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 106.5%;
+    margin: 50px 0 0 40px;
+}
+.content1 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #394149;
+}
+.content1-3 {
+    display: flex;
+}
+.content1-3 img:first-child {
+    margin: 17px 45px 0 0;
+    
+}
+.content1-3 img:nth-child(2)    {
+    margin: 17px 48px 0 0;
+}
+.content1-3 img:last-child {
+    margin: 17px 0 0 0;
+}
