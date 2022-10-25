@@ -42,6 +42,9 @@ a{
     background-color: #F58A071A;
     border-radius: 31px
 }
+.nav p a{
+    color: #F58A07;
+}
 .sec1   {
     max-width: 1280px;
     height: 751px;
